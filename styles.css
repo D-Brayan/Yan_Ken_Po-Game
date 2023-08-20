@@ -1,0 +1,99 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, .text-mensajes, .ataques, .caja-batalla, #ataques {
+  text-align: center;
+}
+
+.caja-batalla, #ataques {
+  user-select: none;
+}
+
+.contenedor-batalla {
+  display: flex;
+  justify-content: center;
+}
+
+/* IMAGEN DEL JUGADOR */
+.img-batalla-1 {
+  margin-left: 50px;
+}
+
+.img-batalla-1, .img-batalla-2 {
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+/* NOMBRE DEL JUGADOR */
+.nombre1 {
+  position: relative;
+  margin-bottom: 280px;
+  left: 244px;
+}
+
+/* NOMBRE DE LA COMPUTADORA */
+.nombre2 {
+  position: relative;
+  margin-bottom: 280px;
+  right: 226px;
+}
+
+.nombre1, .nombre2 {
+  border: 2px solid red;
+  padding: 10px 10px 7px 10px;
+  border-radius: 8px;
+}
+
+.campo-batalla {
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.caja-batalla {
+  margin: 25px;
+}
+
+.text-mensajes {
+  font-size: 45px;
+}
+
+.img-batalla {
+  border-radius: 50%;
+}
+
+.btn-ataques {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.btn-ataques:hover {
+  border: 2px solid red;
+  cursor: pointer;
+  margin: 18px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 50px 11px 50px ;
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+span {
+  font-size: 20px;
+}
+

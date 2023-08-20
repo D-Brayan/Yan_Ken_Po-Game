@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>YAN-KEN-PO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Piedra | Papel | Tijeras</h1>
+  <div class="contenedor-batalla">
+    <div id="campo-batalla" class="campo-batalla">
+      <p class="nombre1">JUGADOR</p>
+      <div id="img-ataque-jugador" class="caja-batalla"></div>
+      <div class="caja-batalla">
+        <p class="text-mensajes">VS</p>
+        <div id="marcador">
+          <p id="puntos">
+            <span id="puntos-jugador">0</span>
+            <span>-</span>
+            <span id="puntos-pc">0</span>
+          </p>
+        </div>
+      </div>
+      <div id="img-ataque-pc" class="caja-batalla"></div>
+      <p class="nombre2">COMPUTADORA</p>
+    </div>
+  </div>
+  
+  <div>
+    <p id="msj-batalla" class="text-mensajes"> </p>
+  </div>
+  <h2 id="text-ataque">Elije un ataque</h2>
+  <div id="ataques">
+    <img id="btn-piedra" class="btn-ataques" src="img/Piedra.png" alt="">
+    <img id="btn-papel" class="btn-ataques" src="img/Papel.png" alt="">
+    <img id="btn-tijeras" class="btn-ataques" src="img/Tijeras.png" alt="">
+  </div>
+  <div class="button-container">
+    <button id="retry">RETRY</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
